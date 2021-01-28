@@ -1,0 +1,59 @@
+body{
+   background:#f6f7f7;   
+}
+#main:hover{
+    background-color: rgb(189, 157, 157);
+    box-shadow: tomato;
+}
+#form_type{
+
+    text-align: center;
+    font-family:monospace; 
+
+}
+
+.form{
+    margin: auto;
+    margin-top: 4%;
+    width: 30%;
+    border-radius: 7px;
+    background: rgb(189, 157, 157);
+    padding: 10px;
+    
+
+}
+
+
+#button{
+    margin-top: 5%;
+    padding:4%;
+}
+
+#btn1{
+
+    text-align: center;
+    width: 40%;
+}
+#btn2{
+    
+    margin-left: 16%;
+    width: 40%;
+}
+
+#data_save{
+    margin-top: 2%;
+    align-items: center;
+    background-color:#f6f7f7;
+    align-self: center;
+    text-size-adjust: 50px;
+    color: black;
+    padding-left: 37%;
+    padding-top: 5%;
+    background-color: whitesmoke;
+    
+    
+
+}
+h4:hover{
+    color:blue;
+}

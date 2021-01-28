@@ -1,0 +1,24 @@
+<h2 style="text-align: center; margin-top:2%">Registered Data</h2>
+<table class="table table-striped table-bordered" style="align-self: center; margin-top:3%">
+    <tr>
+        <th>Id</th>
+        <th>Name</th>
+        <th>Email</th>
+        <th>Contact No.</th>
+        <th>DOB</th>
+        <th>Address</th>
+    </tr>
+  
+    {{#each results}}
+    <tr>
+        <td>{{this.Id}}</td>
+        <td>{{this.Name}}</td>
+        <td>{{this.Email}}</td>
+        <td>{{this.Contact_dtl}}</td>
+        <td>{{this.DOB}}</td>
+        <td>{{this.Address}}</td>
+        
+    </tr>
+    {{/each}}
+    <tr><td><a href="/">back</a></td></tr>
+</table>
